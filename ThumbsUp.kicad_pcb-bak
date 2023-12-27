@@ -37258,7 +37258,7 @@
 
   (gr_line (start 173.33 -3.38) (end 177.85 -4.9) (layer Edge.Cuts) (width 0.05) (tstamp 658154FE))
   (gr_line (start 126.19 -3.38) (end 121.67 -4.9) (layer Edge.Cuts) (width 0.05))
-  (gr_circle (center 149.77 -35.37) (end 151.57 -55.42) (layer F.SilkS) (width 0.12) (tstamp 657E7603))
+  (gr_circle (center 149.77 -35.37) (end 151.57 -15.32) (layer B.SilkS) (width 0.12) (tstamp 657E7603))
   (gr_line (start 126.728765 -34.681751) (end 93.625827 -48.88721) (layer Edge.Cuts) (width 0.05) (tstamp 657E7602))
   (gr_line (start 126.19 -3.38) (end 173.33 -3.38) (layer Edge.Cuts) (width 0.05) (tstamp 657E7601))
   (gr_line (start 143.228765 -75.481751) (end 148.928765 -89.581751) (layer Edge.Cuts) (width 0.05) (tstamp 657E7600))
@@ -37312,7 +37312,7 @@
   (gr_line (start 153.416 169.418) (end 153.416 162.814) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 140.208 169.418) (end 140.208 162.814) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 153.416 169.418) (end 140.208 169.418) (layer Edge.Cuts) (width 0.05))
-  (gr_circle (center 150.2 86.45) (end 152 66.4) (layer F.SilkS) (width 0.12))
+  (gr_circle (center 150.2 86.45) (end 152 106.5) (layer B.SilkS) (width 0.12))
   (gr_text "Thumbs Up! by Sasha Karmanov\nDecember 15, 2023\nhttps://github.com/ak66666/\nThumbsUpUnsplitV9" (at 184.27 216.1) (layer B.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )

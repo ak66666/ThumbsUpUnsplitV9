@@ -1672,25 +1672,10 @@ F 3 "~" H 1750 12400 50  0001 C CNN
 	1    1750 12400
 	0    1    1    0   
 $EndComp
-$Comp
-L Connector:Conn_01x04_Male J12
-U 1 1 6206CD4F
-P 1750 12550
-F 0 "J12" V 1812 12694 50  0000 L CNN
-F 1 "Raiser_Male" V 1903 12694 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1750 12550 50  0001 C CNN
-F 3 "~" H 1750 12550 50  0001 C CNN
-	1    1750 12550
-	0    1    1    0   
-$EndComp
 NoConn ~ 1550 12200
 NoConn ~ 1650 12200
 NoConn ~ 1750 12200
 NoConn ~ 1850 12200
-NoConn ~ 1550 12750
-NoConn ~ 1650 12750
-NoConn ~ 1750 12750
-NoConn ~ 1850 12750
 $Comp
 L Connector:Conn_01x04_Female J9
 U 1 1 621DC2BB
@@ -1769,10 +1754,6 @@ NoConn ~ 2850 12200
 NoConn ~ 2950 12200
 NoConn ~ 3050 12200
 NoConn ~ 3150 12200
-NoConn ~ 2850 12750
-NoConn ~ 2950 12750
-NoConn ~ 3050 12750
-NoConn ~ 3150 12750
 $Comp
 L Connector:Conn_01x04_Female J17
 U 1 1 622DE716
@@ -2664,10 +2645,10 @@ NoConn ~ 1850 10900
 Text Notes 9750 2800 0    50   ~ 0
 Two-key thumbcluster
 $Comp
-L Connector:Conn_01x04_Female J?
+L Connector:Conn_01x04_Female J37
 U 1 1 65EB71BC
 P 14200 4150
-F 0 "J?" V 14046 4298 50  0000 L CNN
+F 0 "J37" V 14046 4298 50  0000 L CNN
 F 1 "Raiser_Female" V 14137 4298 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 14200 4150 50  0001 C CNN
 F 3 "~" H 14200 4150 50  0001 C CNN
@@ -2675,10 +2656,10 @@ F 3 "~" H 14200 4150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ThumbsUp-rescue:52559-1233-52559-1233 J?
+L ThumbsUp-rescue:52559-1233-52559-1233 J38
 U 1 1 65EB71CE
 P 15550 3400
-F 0 "J?" H 16050 3665 50  0000 C CNN
+F 0 "J38" H 16050 3665 50  0000 C CNN
 F 1 "52559-1233" H 16050 3574 50  0000 C CNN
 F 2 "52559-1233:525591233" H 16400 3500 50  0001 L CNN
 F 3 "" H 16400 3400 50  0001 L CNN
@@ -2722,4 +2703,35 @@ GND-TOP2
 NoConn ~ 13950 2800
 Text Notes 14400 2850 0    50   ~ 0
 Three-key thumbcluster
+$Comp
+L Connector:Conn_01x04_Male J12
+U 1 1 6206CD4F
+P 1750 12550
+F 0 "J12" V 1812 12694 50  0000 L CNN
+F 1 "Raiser_Male" V 1903 12694 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1750 12550 50  0001 C CNN
+F 3 "~" H 1750 12550 50  0001 C CNN
+	1    1750 12550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3150 12750 3050 12750
+Connection ~ 1650 12750
+Wire Wire Line
+	1650 12750 1550 12750
+Connection ~ 1750 12750
+Wire Wire Line
+	1750 12750 1650 12750
+Connection ~ 1850 12750
+Wire Wire Line
+	1850 12750 1750 12750
+Connection ~ 2850 12750
+Wire Wire Line
+	2850 12750 1850 12750
+Connection ~ 2950 12750
+Wire Wire Line
+	2950 12750 2850 12750
+Connection ~ 3050 12750
+Wire Wire Line
+	3050 12750 2950 12750
 $EndSCHEMATC

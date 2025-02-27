@@ -10,7 +10,7 @@ Multilevel 44/46 Key Contoured Keyboard.
 * Compact key spacing (18x17), large MX-size caps won't fit.
 
 ![Main view](https://github.com/ak66666/ThumbsUpUnsplitV9/blob/main/Photos/IMG_20240110_212132487.jpg)
-![Some keys are tucked under the middle PCB](https://github.com/ak66666/ThumbsUpUnsplitV9/blob/main/Photos/IMG_20240110_212153194_HDR.jpg)
+![3-key cluster stick out/hangs over the other plates](https://github.com/ak66666/ThumbsUpUnsplitV9/blob/main/Photos/IMG_20240110_212153194_HDR.jpg)
 
 Other pictures in Photos folder.
 
